@@ -1,0 +1,11 @@
+Golang Crud com MySQL
+
+Vá para:
+
+$ cd ~/Dev/go-workspace/src
+
+
+Download:
+
+https://github.com/go-sql-driver/mysql
+
