@@ -58,10 +58,14 @@ Vídeos:
 
 	- source: https://github.com/armitage256/Golang/tree/master/Videos-12-16
 
-	- playlist: https://www.youtube.com/watch?v=Gwpq-p83w9k&list=PLX1ZicTvC_as1L6AAgEsXESlvjSupYfAc
+	- vídeos: https://www.youtube.com/watch?v=Gwpq-p83w9k&list=PLX1ZicTvC_as1L6AAgEsXESlvjSupYfAc
 
 
+- Como Programar uma API REST Simples em Golang - Vídeos 18 à 24
 
+	- source: https://github.com/armitage256/Golang/blob/master/Videos-18-24/api/main.go
+
+	- vídeos : https://www.youtube.com/watch?v=Hiu7P4Q9Rrc&list=PLX1ZicTvC_atwas5XS5Z5qAF1AB2vEwko
 
 
 
