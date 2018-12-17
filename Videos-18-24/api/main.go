@@ -16,7 +16,7 @@ type User struct {
 	Id       int    `json:"id"`
 	Name     string `json:"name"`
 	Email    string `json:"email"`
-	Password string `json:password`
+	Password string `json:"password"`
 }
 
 var users = []User{
@@ -128,7 +128,7 @@ func postUser(w http.ResponseWriter, r *http.Request) {
 
 	users = append(users, user)
 
-	json.NewEncoder(w).Encode( json.NewEncoder(w).Encode( NewResponse( r.Method, "success", 201 ) ) )
+	json.NewEncoder(w).Encode( NewResponse( r.Method, "success", 201 ) )
 
 }
 
