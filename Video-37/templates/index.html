@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Golang Web Tutoriais</title>
+</head>
+<body>
+
+    <form action="" method="GET">
+        <label for="n1">Soma:</label>
+        <input type="text" name="n1" id="n1" /> 
+        <label for="n2">+</label>
+        <input type="text" name="n2" id="n2" />
+        <button type="submit">submit</button>
+    </form>
+
+    {{ if (gt .N1 .N2) }} <!-- gt corresponde ao MAIOR QUE ( > ) -->
+    <p> {{ .N1 }} é maior que {{ .N2 }} </p>
+    {{ else if (lt .N1 .N2) }} <!-- lt corresponde ao MENOR QUE ( < ) -->
+    <p> {{ .N1 }} é menor que {{ .N2 }}  </p>
+    {{ else }}
+    <p> valores iguais </p>
+    {{ end }}
+    
+    {{ if .Sum }}
+    <p> A soma dos dois números é {{ .Sum }} </p>
+    {{ end }}
+
+</body>
+</html>
