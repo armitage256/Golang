@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Golang Web Tutoriais</title>
+</head>
+<body>
+
+    <!-- se o nome for igual a "admin" executa o parágrafo -->
+    {{ if (eq .Name "admin") }}
+    <p> Olá, {{ .Name }}&trade;!</p>
+    {{ else if (ne .Name "") }} <!-- senão se a variável Name não estiver vázia -->
+    <p>Seja bem vindo! {{ .Name }}</p>
+    {{ end }}
+
+    <form action="" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" />
+        <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html>
